@@ -2,9 +2,9 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
-  "main": "n3.js",
+  "main": "training.js",
   "scripts": {
-    "start": "node n3.js"
+    "start": "node training.js"
   },
   "author": "",
   "license": "ISC",
