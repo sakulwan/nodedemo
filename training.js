@@ -2,7 +2,7 @@ var cron = require('node-cron');
 cron.schedule('0,5,10,15,20,25,30,35,40,45,50,55 * * * * *', function(){
 
 
-let url1 = ["http://www.yahoo.com","http://www.google.com","http://www.ibm.com"];
+let url1 = ["http://www.gmail.com","http://www.google.com","http://www.dell.co.th"];
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds() + today.getMilliseconds();
